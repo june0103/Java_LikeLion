@@ -19,6 +19,7 @@ public class MainClass {
 		System.out.printf("a2 : %s\n", a2);
 		
 		// 문자 타입(2byte 정수, 0 ~ 65535)
+		// char는 문자타입이다 정수형도 맞지만 문제로 나올시 문자타입으로 고른다
 		char char1 = 65;
 		char char2 = 'A';
 		
