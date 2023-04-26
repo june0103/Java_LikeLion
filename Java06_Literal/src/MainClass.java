@@ -1,0 +1,27 @@
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 리터럴 : 프로그래밍 언어에서 값을 작성하는 문법
+		
+		// 정수 리터럴
+		System.out.println(100);
+		System.out.println(200);
+		
+		System.out.println("정수 : " + 100);
+		System.out.println("정수 : " + 200 + ", " + 300);
+		
+		System.out.printf("정수 : %d\n",100);
+		System.out.printf("정수 : %d, %d\n",200,300);
+		
+		System.out.printf("정수최대 : %d\n", 2147483647);
+		System.out.printf("정수최소 : %d\n", -2147483648);
+		
+		// 실수 리터럴
+		
+		
+	}
+
+}
