@@ -28,6 +28,7 @@ public class MainClass {
 		System.out.printf("a6 : %f\n", a6);
 		System.out.printf("a7 : %f\n", a7);
 		System.out.printf("a8 : %d\n", a8);
+		System.out.println("=========================");
 
 		// 최우선연산자
 		// () : 수학과 같이 가장 먼저 계산을 할 부분 설정
@@ -36,6 +37,7 @@ public class MainClass {
 
 		System.out.printf("b1 : %d\n", b1);
 		System.out.printf("b2 : %d\n", b2);
+		System.out.println("=========================");
 
 		// 단항 연산자
 		// ! : true를 false로 false를 true로 바꿔준다.
@@ -46,6 +48,7 @@ public class MainClass {
 		System.out.printf("c1 : %s\n", c1);
 		System.out.printf("c2 : %s\n", c2);
 		System.out.printf("c3 : %s\n", c3);
+		System.out.println("=========================");
 
 		// ~ : 비트 0을 1로, 비트 1을 0으로 변환해준다.
 		int d1 = 100;
@@ -56,6 +59,7 @@ public class MainClass {
 
 		int d3 = ~d1 + 1;
 		System.out.println(d3);
+		System.out.println("=========================");
 
 		// 부호 연산자
 		// + : 그대로, - : 양수를 음수로, 음수를 양수로
@@ -66,6 +70,7 @@ public class MainClass {
 		System.out.printf("e1 : %d\n", e1);
 		System.out.printf("e2 : %d\n", e2);
 		System.out.printf("e3 : %d\n", e3);
+		System.out.println("=========================");
 
 		// 증감 연산자
 		// 변수의 값을 추출하여 증가 혹은 감소 시키고 다시 변수에 저장한다.
@@ -82,6 +87,7 @@ public class MainClass {
 		--f2;
 		System.out.printf("f1 : %d\n", f1);
 		System.out.printf("f2 : %d\n", f2);
+		System.out.println("=========================");
 
 		// 쉬프트 연산자
 		// >> 비트를 오른쪽으로 지정한 만큼 이동한다.
@@ -106,6 +112,7 @@ public class MainClass {
 		System.out.printf("g1 >> 2 : %d\n", g1 >> 2);
 		System.out.printf("g1 << 1 : %d\n", g1 << 1);
 		System.out.printf("g1 << 2 : %d\n", g1 << 2);
+		System.out.println("=========================");
 
 		// 비교연산자
 		// 왼쪽의 값이 오른쪽에 대해 어떠한지
@@ -125,6 +132,7 @@ public class MainClass {
 		System.out.printf("h1 == 50 : %s\n", h1 == 50);
 		System.out.printf("h1 != 50 : %s\n", h1 != 50);
 		System.out.printf("h1 != 100 : %s\n", h1 != 100);
+		System.out.println("=========================");
 
 		// 논리 연산자
 		// 연산자 좌우측의 비교연산자 수식의 결과를 가지고 연산을 하는 연산자
@@ -145,18 +153,79 @@ public class MainClass {
 		System.out.printf("%s && %s : %s\n", i1, i3, i6);
 		System.out.printf("%s && %s : %s\n", i3, i1, i7);
 		System.out.printf("%s && %s : %s\n", i3, i4, i8);
-		
-		// || : 둘 다 false 여야지만 false이고 둘 중 하나라도 
-        // true라면 결과는 true이다.
-        boolean i9 = i1 || i2;
-        boolean i10 = i1 || i3;
-        boolean i11 = i3 || i1;
-        boolean i12 = i3 || i4;
 
-        System.out.printf("%s || %s : %s\n", i1, i2, i9);
-        System.out.printf("%s || %s : %s\n", i1, i3, i10);
-        System.out.printf("%s || %s : %s\n", i3, i1, i11);
-        System.out.printf("%s || %s : %s\n", i3, i4, i12);
+		// || : 둘 다 false 여야지만 false이고 둘 중 하나라도
+		// true라면 결과는 true이다.
+		boolean i9 = i1 || i2;
+		boolean i10 = i1 || i3;
+		boolean i11 = i3 || i1;
+		boolean i12 = i3 || i4;
+
+		System.out.printf("%s || %s : %s\n", i1, i2, i9);
+		System.out.printf("%s || %s : %s\n", i1, i3, i10);
+		System.out.printf("%s || %s : %s\n", i3, i1, i11);
+		System.out.printf("%s || %s : %s\n", i3, i4, i12);
+		System.out.println("=========================");
+
+		// 3항 연산자
+		// 주어진 비교 연산의 결과가 true 면 값1이 연산의 결과가 되고
+		// false면 값2가 연산의 결과가 된다.
+		// 비교연산식 ? 값1 : 값2
+		int j1 = 100;
+
+		boolean j2 = j1 < 200 ? true : false;
+		boolean j3 = j1 > 200 ? true : false;
+
+		System.out.printf("j2 : %s\n", j2);
+		System.out.printf("j3 : %s\n", j3);
+		System.out.println("=========================");
+
+		// 대입 연산자
+		// 우측의 값을 좌측의 변수에 저장한다.
+		int k1 = 100;
+		System.out.printf("k1 : %d\n", k1);
+
+		// 다른 연산자와 같이 사용하는 대입연산자
+		int k2 = 100;
+		int k3 = 100;
+
+		k2 = k2 + 10;
+		k3 += 10;
+
+		System.out.printf("k2 : %d\n", k2);
+		System.out.printf("k3 : %d\n", k3);
+
+		k2 = k2 - 10;
+		k3 -= 10;
+
+		System.out.printf("k2 : %d\n", k2);
+		System.out.printf("k3 : %d\n", k3);
+		System.out.println("=========================");
+
+		// 증감연산자
+		int l1 = 100;
+		int l2 = 100;
+
+		++l1;
+		l2++;
+
+		System.out.printf("l1 : %d\n", l1);
+		System.out.printf("l2 : %d\n", l2);
+
+		--l1;
+		l2--;
+
+		System.out.printf("l1 : %d\n", l1);
+		System.out.printf("l2 : %d\n", l2);
+
+		// 다른 연산자와 섞여있을시 우선순위가 달라진다
+		// ++가 앞에있을시 자기자신의 연산을 우선시하지만, 뒤에있을시 앞에있는 연산부터 진행
+		int l3 = ++l1;
+		int l4 = l2++;
+
+		System.out.printf("l1 : %d, l3 : %d\n", l1, l3);
+		System.out.printf("l2 : %d, l4 : %d\n", l2, l4);
+
 	}
 
 }
