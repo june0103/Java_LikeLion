@@ -12,6 +12,7 @@
 // 인터프리트 : 코드를 os가 인식할 수 있는 코드로 변환하며 실행하는 것.
 // jvm은 자바 코드를 실행해주는 역할을 하기 때문에 JRE(Java Runtime
 // Environment)라고 부르기도 한다.
+
 public class MainClass {
 
 	public static void main(String[] args) {

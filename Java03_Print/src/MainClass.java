@@ -24,7 +24,7 @@ public class MainClass {
 		System.out.println("문자열1" + "문자열2");
 		// 문자열과 문자열이 아닌 것을 더하면 문자열이 아닌 것이 문자열로 변환되고 문자열 + 문자열을 수행한다.
 		System.out.println("정수 : " + 100);
-		
+
 	}
 
 }

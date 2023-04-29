@@ -23,9 +23,11 @@ public class MainClass {
 		// 1. 잘못된 표기 예
 		// koreanpointavg
 		// korean point avg
+		
 		// 2. 파스칼 표기 기법 : 단어와 단어사이에 언더바(_)를 두는 표기 기법
 		// korean_point_avg, car_count
 		// 자바에서는 상수를 의미하는 것들을 사용할 때...
+		
 		// 3. 카멜 표기 기법 : 각 단어의 첫 글자를 대문자로 작성하는 표기 기법
 		// koreanPointAvg, carCount
 		// 자바에서는 상수를 의미하는 것들외의 모든 것들을 사용할 때...

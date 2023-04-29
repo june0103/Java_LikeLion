@@ -11,6 +11,7 @@ public class MainClass {
 		// 한 줄에 여러 문장을 작성할 경우 각각이 각 줄이 된다.
 		System.out.println("abcd");
 		System.out.println("1111");
+		System.out.println("0000");
 	}
 
 }
