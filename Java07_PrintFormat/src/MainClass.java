@@ -48,6 +48,7 @@ public class MainClass {
 		// 10자리를 확보하고 우측 정렬로 출력한다.
 		System.out.printf("%10s\n", "abc");
 		System.out.printf("%9s\n", "abc");
+		
 	}
 
 }

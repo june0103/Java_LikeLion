@@ -25,10 +25,10 @@ public class MainClass {
 
 		int a4 = (int) 40000000000L;
 		System.out.printf("a4 : %d\n", a4);
-		
+
 		int a5 = 500;
 		long a6 = a5;
-		
+
 		System.out.printf("a6 : %d\n", a6);
 	}
 

@@ -7,9 +7,11 @@ public class MainClass {
 		// 논리형 변수 선언
 		// 변수는 선언과 동시에 기억장소가 만들어진다.
 		boolean a1;
+		
 		// 변수는 사용하기 전에 값을 저장해야 한다.
 		// = : 대입 연산자. 오른쪽에 있는 값을 왼쪽의 변수에 저장한다. 초기화 한다고 부른다.
 		a1 = true;
+		
 		// 변수의 사용
 		// 변수의 이름만 작성해 주면 기억장소의 값을 가져와 사용한다.
 		System.out.printf("a1 : %s\n", a1);
@@ -53,6 +55,12 @@ public class MainClass {
 		// 문자열
 		String str1 = "안녕하세요";
 		System.out.printf("String : %s\n", str1);
+		
+		
+		// 논리형 boolean
+		// 정수형 byte, short, int, long 
+		// 실수형 duoble, float
+		// 문자 char
 		
 		
 	}

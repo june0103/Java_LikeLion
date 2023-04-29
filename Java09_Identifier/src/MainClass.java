@@ -18,13 +18,15 @@ public class MainClass {
 		// 한글 등도 가능하다.
 		int 정수형변수 = 300;
 		System.out.println(정수형변수);
-		
+
 		// 파스칼 표기 기법
 		int student_korean_pint = 400;
+
+		System.out.println(student_korean_pint);
+
 		// 카멜 표기 기법
 		int studentKoreanPoint = 500;
-		
-		System.out.println(student_korean_pint);
+
 		System.out.println(studentKoreanPoint);
 	}
 
