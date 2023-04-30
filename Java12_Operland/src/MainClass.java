@@ -8,15 +8,19 @@ public class MainClass {
 		// 사칙연산과 나머지를 구한다
 		// 더하기
 		int a1 = 10 + 3;
+
 		// 빼기
 		int a2 = 10 - 3;
+
 		// 곱하기
 		int a3 = 10 * 3;
+
 		// 나누기
 		int a4 = 10 / 3;
 		double a5 = 10.0 / 3.0;
 		double a6 = 10 / 3.0;
 		double a7 = 10.0 / 3;
+
 		// 나머지
 		int a8 = 10 % 3;
 
@@ -28,6 +32,7 @@ public class MainClass {
 		System.out.printf("a6 : %f\n", a6);
 		System.out.printf("a7 : %f\n", a7);
 		System.out.printf("a8 : %d\n", a8);
+
 		System.out.println("=========================");
 
 		// 최우선연산자
@@ -37,6 +42,7 @@ public class MainClass {
 
 		System.out.printf("b1 : %d\n", b1);
 		System.out.printf("b2 : %d\n", b2);
+
 		System.out.println("=========================");
 
 		// 단항 연산자
@@ -52,12 +58,15 @@ public class MainClass {
 
 		// ~ : 비트 0을 1로, 비트 1을 0으로 변환해준다.
 		int d1 = 100;
+
 		System.out.printf("%32s\n", Integer.toBinaryString(d1));
 
 		int d2 = ~d1;
+
 		System.out.printf("%32s\n", Integer.toBinaryString(d2));
 
 		int d3 = ~d1 + 1;
+
 		System.out.println(d3);
 		System.out.println("=========================");
 
@@ -99,11 +108,13 @@ public class MainClass {
 
 		int g2 = g1 >> 1;
 		int g3 = g1 >> 2;
+
 		System.out.printf("%32s\n", Integer.toBinaryString(g2));
 		System.out.printf("%32s\n", Integer.toBinaryString(g3));
 
 		int g4 = g1 << 1;
 		int g5 = g1 << 2;
+
 		System.out.printf("%32s\n", Integer.toBinaryString(g4));
 		System.out.printf("%32s\n", Integer.toBinaryString(g5));
 
@@ -183,6 +194,7 @@ public class MainClass {
 		// 대입 연산자
 		// 우측의 값을 좌측의 변수에 저장한다.
 		int k1 = 100;
+
 		System.out.printf("k1 : %d\n", k1);
 
 		// 다른 연산자와 같이 사용하는 대입연산자
