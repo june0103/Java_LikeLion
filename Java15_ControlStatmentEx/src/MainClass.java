@@ -17,6 +17,7 @@ public class MainClass {
 		System.out.printf("a2 : %s\n", a2);
 
 		scan.close();
+
 	}
 
 }

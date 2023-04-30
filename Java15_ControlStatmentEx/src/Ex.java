@@ -73,72 +73,68 @@ public class Ex {
 		// 위의 합을 11로 나눈 나머지를 구한다.
 		// 11에서 나머지를 뺀다.-
 		// 뺀 숫자를 10으로 나눈 나머지를 구한다. 이 값이 13번째 자리 숫자가 된다.
-		
-		//숫자를 입력받고 각 자리수를 뜯어낸다
+
+		// 숫자를 입력받고 각 자리수를 뜯어낸다
 		System.out.print("주민번호 입력 : ");
 		long nb = sc.nextLong();
 		// 각 자리수를 뜯어낸다.
 		long b1 = nb / 1000000000000L;
 		nb = nb % 1000000000000L;
-		
+
 		long b2 = nb / 100000000000L;
 		nb = nb % 100000000000L;
-		
+
 		long b3 = nb / 10000000000L;
 		nb = nb % 10000000000L;
-		
+
 		long b4 = nb / 1000000000L;
 		nb = nb % 1000000000L;
-		
+
 		long b5 = nb / 100000000L;
 		nb = nb % 100000000L;
-		
+
 		long b6 = nb / 10000000L;
 		nb = nb % 10000000L;
-		
+
 		long b7 = nb / 1000000L;
 		nb = nb % 1000000L;
-		
+
 		long b8 = nb / 100000L;
 		nb = nb % 100000L;
-		
+
 		long b9 = nb / 10000L;
 		nb = nb % 10000L;
-		
+
 		long b10 = nb / 1000L;
 		nb = nb % 1000L;
-		
+
 		long b11 = nb / 100L;
 		nb = nb % 100L;
-		
+
 		long b12 = nb / 10L;
-		
+
 		long b13 = nb % 10L;
-		
-		
-		System.out.printf("%d %d %d %d %d %d %d %d %d %d %d %d %d \n",b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13);
-		
-        // 공식에 의해서 계산한다.
-		
-		long nbSum =  (b1 * 2) + (b2 * 3) + (b3 * 4) + (b4 * 5)
-                + (b5 * 6) + (b6 * 7) + (b7 * 8) + (b8 * 9)
-                + (b9 * 2) + (b10 * 3) + (b11 * 4) + (b12 * 5);
+
+		System.out.printf("%d %d %d %d %d %d %d %d %d %d %d %d %d \n", b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11,
+				b12, b13);
+
+		// 공식에 의해서 계산한다.
+
+		long nbSum = (b1 * 2) + (b2 * 3) + (b3 * 4) + (b4 * 5) + (b5 * 6) + (b6 * 7) + (b7 * 8) + (b8 * 9) + (b9 * 2)
+				+ (b10 * 3) + (b11 * 4) + (b12 * 5);
 		long nbSum1 = nbSum % 11;
-        long nbSum2 = 11 - nbSum1;
-        long nbSum3 = nbSum2 % 10;
-        
-      
+		long nbSum2 = 11 - nbSum1;
+		long nbSum3 = nbSum2 % 10;
 
-        // 계산된 결과와 13번째 자리 숫자리를 비교한다.
+		// 계산된 결과와 13번째 자리 숫자리를 비교한다.
 
-        // 같으면 유효하다고 출력한다.
-        if (nbSum3 == b13) {
+		// 같으면 유효하다고 출력한다.
+		if (nbSum3 == b13) {
 			System.out.println("올바른 주민번호입니다.");
-		}else {
+		} else {
 			System.out.println("잘못된 주니번호입니다.");
 		}
-		
-		
+
 	}
 
 }
