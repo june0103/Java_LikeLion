@@ -121,6 +121,7 @@ public class MainClass {
 			System.out.printf("a6 : %d\n", a6);
 			a6++;
 		} while (a6 < 10);
+		
 	}
 
 }
