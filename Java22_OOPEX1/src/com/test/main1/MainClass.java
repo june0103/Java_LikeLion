@@ -12,12 +12,13 @@ public class MainClass {
 		// 기능구현을 위해 필요한 변수
 		// 클래스를 설계(주석)
 		// 클래스 내부의 변수와 메서드를 정의
-		
+
 		Scanner scanner = new Scanner(System.in);
 
 		// Avg 객체 생성
 		Avg avg = new Avg();
 		// 학생 수 만큼 객체를 생성한다.
+
 		Student s1 = new Student();
 		Student s2 = new Student();
 		Student s3 = new Student();
