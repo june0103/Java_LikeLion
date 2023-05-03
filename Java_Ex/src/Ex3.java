@@ -115,25 +115,4 @@ class Point3 {
 		}
 	}
 
-	// °ú¸ñº° ÃÑÁ¡ ¸Þ¼­µå
-	public void Sum(Student2 s1, Student2 s2, Student2 s3) {
-		koreansum = s1.korean + s2.korean + s3.korean;
-		engsum = s1.english + s2.english + s3.english;
-		mathsum = s1.math + s2.math + s3.math;
-
-		System.out.printf("±¹¾î ÃÑÁ¡ : %d\n", koreansum);
-		System.out.printf("¿µ¾î ÃÑÁ¡ : %d\n", engsum);
-		System.out.printf("¼öÇÐ ÃÑÁ¡ : %d\n", mathsum);
-	}
-
-	// °ú¸ñº° Æò±Õ ¸Þ¼­µå
-	public void avg() {
-		int koavg = koreansum / 3;
-		int engavg = engsum / 3;
-		int mathavg = mathsum / 3;
-		System.out.printf("±¹¾î Æò±Õ : %d\n", koavg);
-		System.out.printf("¿µ¾î Æò±Õ : %d\n", engavg);
-		System.out.printf("¼öÇÐ Æò±Õ : %d\n", mathavg);
-	}
-
 }
