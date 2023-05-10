@@ -14,30 +14,29 @@ public class Ex {
 		System.out.print("1. 학생정보 입력");
 	}
 
-}
+	public class School {
 
-public class School {
+		Scanner scanner;
 
-	Scanner scanner;
+		ArrayList<Student> studentList = new ArrayList<Student>();
 
-	ArrayList<Student> studentList = new ArrayList<Student>();
-
-}
-
-public class Student {
-
-	String name;
-	String grade;
-	String korean;
-	String english;
-	String math;
-
-	public Student(String name, String grade, String korean, String english, String math) {
-		this.name = name;
-		this.grade = grade;
-		this.korean = korean;
-		this.english = english;
-		this.math = math;
 	}
 
+	public class Student {
+
+		String name;
+		String grade;
+		String korean;
+		String english;
+		String math;
+
+		public Student(String name, String grade, String korean, String english, String math) {
+			this.name = name;
+			this.grade = grade;
+			this.korean = korean;
+			this.english = english;
+			this.math = math;
+		}
+
+	}
 }

@@ -21,6 +21,7 @@ public class MainClass {
 		// SuperClass100을 상속받은 이름이 없는 클래스를 작성하고
 		// 필요한 메서드들을 overriding한다.
 		// 그리고 자식클래스의 객체를 생성해준다.
+		// 객체를 딱 하나만 사용할경우 익명중첩 클래스를 사용
 		SuperClass100 s100 = new SuperClass100() {
 
 			public void superMethod100() {

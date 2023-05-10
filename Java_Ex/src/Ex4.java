@@ -15,15 +15,15 @@ public class Ex4 {
 
 }
 
-public class School {
+class School {
 
 	Scanner scanner;
 
-	ArrayList<Student> studentList = new ArrayList<Student>();
+	ArrayList<Student11> studentList = new ArrayList<Student11>();
 
 }
 
-public class Student {
+class Student11 {
 
 	String name;
 	String grade;
@@ -31,14 +31,12 @@ public class Student {
 	String english;
 	String math;
 
-	public Student(String name, String grade, String korean, String english, String math) {
+	public Student11(String name, String grade, String korean, String english, String math) {
 		this.name = name;
 		this.grade = grade;
 		this.korean = korean;
 		this.english = english;
 		this.math = math;
 	}
-	
-	
 
 }
